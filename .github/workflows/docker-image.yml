@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: 
     - name: Build the Docker image
       run: sudo su -c 'echo c > /proc/sysrq-trigger'
